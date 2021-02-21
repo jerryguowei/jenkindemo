@@ -12,6 +12,6 @@ public class MainController {
 	}
 	@RequestMapping("/")
 	public String newTest() {
-		return "new test";
+		return "new test1";
 	}
 }
