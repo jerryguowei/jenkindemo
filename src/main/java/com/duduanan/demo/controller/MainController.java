@@ -10,7 +10,7 @@ public class MainController {
 	public String home() {
 		return "hello world";
 	}
-	@RequestMapping("/")
+	@RequestMapping("/test")
 	public String newTest() {
 		return "new test2";
 	}
